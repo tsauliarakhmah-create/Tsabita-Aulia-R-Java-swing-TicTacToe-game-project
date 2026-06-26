@@ -76,7 +76,7 @@ public class GameFrame extends JFrame {
                                 service.updateStatistics(player, "DRAW");
                                 JOptionPane.showMessageDialog(
                                         null,
-                                        "Seri!"
+                                        "DRAW!"
                                 );
                                 dispose();
                                 new MainMenuFrame(player);
